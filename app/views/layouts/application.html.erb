@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sado</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    
+  </head>
+
+  <body>
+  <header>
+      <h1>sado</h1>
+      <div class="header-list">
+      <ul>
+        <li><%= link_to "ホーム", tweets_path %></li>
+        <li><%= link_to "歴史",tweets_history_path %></li>
+        <li><%= link_to "道具",tweets_tool_path %></li>
+        <li><%= link_to "飲み方",tweets_drink_path %></li>
+      </ul>
+      </div>
+    </header>
+
+<main>
+<%= yield %>
+</main>
+  </body>
+</html>
