@@ -4,7 +4,7 @@
 
 /*   First block   */
 #first-block {
-    background-image: url("../assets/first-back.jpg");
+    background-image: image-url("../assets/first-back.jpg");
     background-size: cover;
     width: 100%;
     height: 550px;
@@ -114,7 +114,7 @@
   }
   /*   Third block End   */
   #first-block2 {
-    background-image: url("../assets/history.jpg");
+    background-image: image-url("../assets/history.jpg");
     background-size: cover;
     width: 100%;
     height: 550px;
